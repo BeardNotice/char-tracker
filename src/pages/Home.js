@@ -1,17 +1,20 @@
-import { useOutletContext } from 'react-router-dom';
+import React from 'react';
 import CharacterCard from '../components/CharacterCard';
-function Home(){
-    const characters = useOutletContext().characters;
-    return(
+function Home({characters}) {
+    return (
         <>
-        <main>
-            <h1>Candela Obscura Character Tracker</h1>
-            <div className='character-list'>
-                {characters.map(character=>(
-                    <CharacterCard key={character.id} {...character} />
-                ))}
-            </div>
-        </main>
+            <main>
+                <h1>Candela Obscura Character Tracker</h1>
+                <div>
+                    {characters.map((character) => (
+                        <CharacterCard
+                            key={character.id}
+                            name={character.name}
+                            class={character.class}
+                        />
+                    ))}
+                </div>
+            </main>
         </>
     );
 }

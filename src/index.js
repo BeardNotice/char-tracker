@@ -17,7 +17,7 @@ root.render(
 reportWebVitals();*/
 
 import React from 'react';
-import ReactDOM from'react-dom';
+import ReactDOM from'react-dom/client';
 //import {BrowserRouter, Routes} from "react-router-dom"
 import {createBrowserRouter, RouterProvider} from "react-router-dom"
 import routes from './routes';
