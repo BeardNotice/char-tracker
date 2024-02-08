@@ -1,9 +1,9 @@
 import CharacterCard from '../components/CharacterCard';
 import { Outlet, useOutletContext } from 'react-router-dom'
-function Home(/* {characters} */) {
+function Home() {
     const characters = useOutletContext()
     const characterList = characters.map(character => {
-        return <CharacterCard key={character.id} />
+        return <CharacterCard key={character.id} character={character}/>
     })
 
 

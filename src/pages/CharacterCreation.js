@@ -27,11 +27,11 @@ function CharacterCreation() {
             <div className='character-creation'>
                 <h2>Create Character</h2>
                 <form onSubmit={handleSubmit}>
-                    <label>
+                    <p><label>
                         Name:
                         <input type="text" name="name" value={formData.name} onChange={handleChange} required />
-                    </label>
-                    <label>
+                    </label></p>
+                    <p><label>
                         Role:
                         <select name="role" value={formData.role} onChange={handleChange} required>
                             <option value="">Select Role</option>
@@ -41,8 +41,8 @@ function CharacterCreation() {
                                 </option>
                             ))}
                         </select>
-                    </label>
-                    <label>
+                    </label></p>
+                    <p><label>
                         Specialty:
                         <select
                             name="specialty"
@@ -58,12 +58,12 @@ function CharacterCreation() {
                                 </option>
                             ))}
                         </select>
-                    </label>
-                    <label>
+                    </label></p>
+                    <p><label>
                         Picture URL:
                         <input type="text" name="picture" value={formData.picture} onChange={handleChange} required />
-                    </label>
-                    <button type="submit">Create Character</button>
+                    </label></p>
+                    <p><button type="submit">Create Character</button></p>
                 </form>
             </div>
         </>

@@ -10,9 +10,8 @@ function App() {
             .then(res => res.json())
             .then(data => setCharacters(data))
             .catch(err => console.error(err))
-        console.log(characters)
     }, [])
-
+console.log(characters)
     return (
         <>
             <header>
