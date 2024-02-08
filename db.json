@@ -1,0 +1,39 @@
+{
+    "characters": [
+      { 
+        "id": 1,
+        "name": "Charlotte Eaves",
+        "role": "Face",
+        "specialty": "Magician",
+        "picture": "https://static.wikia.nocookie.net/criticalrole/images/a/a9/Charlotte_Eaves_-_Lizzart.jpg/revision/latest/scale-to-width-down/1000?cb=20230526152926"
+      },
+      {
+        "id": 2,
+        "name": "Sean Finnerty",
+        "role": "Muscle",
+        "specialty": "Soldier",
+        "picture": "https://static.wikia.nocookie.net/criticalrole/images/9/92/Sean_Finnerty_-_Lizzart.jpg/revision/latest/scale-to-width-down/1000?cb=20230901140626"
+      },
+      {
+        "id": 3,
+        "name": "Elsie Roberts",
+        "role": "Scholar",
+        "specialty": "Doctor",
+        "picture": "https://static.wikia.nocookie.net/criticalrole/images/0/02/Elsie_Roberts.jpeg/revision/latest/scale-to-width-down/1000?cb=20231201034538"
+      },
+      {
+        "id": 4,
+        "name": "Auggie James",
+        "role": "Slink",
+        "specialty": "Criminal",
+        "picture": "https://static.wikia.nocookie.net/criticalrole/images/c/c2/Auggie_James_-_Lizzart.jpg/revision/latest?cb=20230526134709"
+      },
+      {
+        "id": 5,
+        "name": "Marion Collodi",
+        "role": "Weird",
+        "specialty": "Medium",
+        "picture": "https://static.wikia.nocookie.net/criticalrole/images/6/64/Marion_Collodi_-_Lizzart.jpg/revision/latest/scale-to-width-down/1000?cb=20230901124100"
+      }
+    ]
+  }
