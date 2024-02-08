@@ -1,10 +1,10 @@
 import { useRouteError } from "react-router-dom";
 
-function ErrorPage(){
+function ErrorPage() {
     const error = useRouteError();
     console.error(error);
 
-    return(
+    return (
         <main>
             <h1>404</h1>
             <h2>Whoops! something went wrong!</h2>

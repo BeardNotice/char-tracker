@@ -17,18 +17,18 @@ root.render(
 reportWebVitals();*/
 
 import React from 'react';
-import ReactDOM from'react-dom/client';
-//import {BrowserRouter, Routes} from "react-router-dom"
-import {createBrowserRouter, RouterProvider} from "react-router-dom"
+import ReactDOM from 'react-dom/client';
+import { createBrowserRouter, RouterProvider } from "react-router-dom"
 import routes from './routes';
+import './index.css';
 
 
 const router = createBrowserRouter(routes);
 
-const root=ReactDOM.createRoot(document.getElementById("root"));
-root.render(<RouterProvider router={router}/>);
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(<RouterProvider router={router} />);
 
-
+//import {BrowserRouter, Routes} from "react-router-dom"
 //ReactDOM.render(
 //  <BrowserRouter>
 //    <Routes>
