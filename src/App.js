@@ -10,7 +10,7 @@ function App() {
      .then(res => res.json())
      .then(data => setUsers(data))
      .catch(err => console.error(err))
-     console.log(users)
+     console.log(characters)
     }, [])
 
     return (
