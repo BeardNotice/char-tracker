@@ -3,14 +3,14 @@ import {useState, useEffect} from "react";
 import {Outlet} from "react-router-dom";
 
 function App() {
-    const [characters, setCharacters] = useState([])
+    const [users, setUsers] = useState([])
 
     useEffect(() => {
         fetch('http://localhost:4000/characters')
      .then(res => res.json())
-     .then(data => setCharacters(data))
+     .then(data => setUsers(data))
      .catch(err => console.error(err))
-     console.log(characters)
+     console.log(users)
     }, [])
 
     return (
@@ -18,7 +18,7 @@ function App() {
         <header>
             <NavBar />
         </header>
-        <Outlet context={characters} />
+        <Outlet context={users} />
         </>
     );
 };
