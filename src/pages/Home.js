@@ -1,11 +1,11 @@
 import React from 'react';
-import CharacterCard from '../components/CharacterCard';
-function Home({characters}) {
+//import CharacterCard from '../components/CharacterCard';
+function Home(/* {characters} */) {
     return (
         <>
             <main>
                 <h1>Candela Obscura Character Tracker</h1>
-                <div>
+{/*                 <div>
                     {characters.map((character) => (
                         <CharacterCard
                             key={character.id}
@@ -13,7 +13,7 @@ function Home({characters}) {
                             class={character.class}
                         />
                     ))}
-                </div>
+                </div> */}
             </main>
         </>
     );
