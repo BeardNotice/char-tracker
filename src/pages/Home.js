@@ -2,8 +2,10 @@ import CharacterCard from '../components/CharacterCard';
 import { Outlet, useOutletContext } from 'react-router-dom'
 function Home() {
     const characters = useOutletContext()
+
+
     const characterList = characters.map(character => {
-        return <CharacterCard key={character.id} character={character}/>
+        return <CharacterCard key={character.id} character={character} />
     })
 
 
@@ -21,3 +23,4 @@ function Home() {
     );
 }
 export default Home
+

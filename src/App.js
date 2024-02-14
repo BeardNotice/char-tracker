@@ -11,6 +11,9 @@ function App() {
             .then(data => setCharacters(data))
             .catch(err => console.error(err))
     }, [])
+
+
+
 console.log(characters)
     return (
         <>
