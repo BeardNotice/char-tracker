@@ -11,3 +11,17 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-image: url('https://images.squarespace-cdn.com/content/v1/5e8423d9f9ea8a6d40d7863a/8b2a40de-29c0-4bca-bdb3-f6ed7a79f8e4/Candela+QSG+Announcement+%28Twitter+Header%29+%28Desktop+Wallpaper%29+%281%29.jpg');
+  background-size: cover;
+  background-position: center;
+}
