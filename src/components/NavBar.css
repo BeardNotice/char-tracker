@@ -25,6 +25,6 @@ nav {
   
   /* Optional: Adjust the navbar height */
   nav {
-    height: 80px; /* Adjust the height as needed */
-    line-height: 80px; /* Center the text vertically within the navbar */
+    height: 20px; /* Adjust the height as needed */
+    line-height: 20px; /* Center the text vertically within the navbar */
   }

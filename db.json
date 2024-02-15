@@ -5,35 +5,41 @@
       "name": "Charlotte Eaves",
       "role": "Face",
       "specialty": "Magician",
-      "picture": "https://static.miraheze.org/criticalrolewiki/3/3c/Charlotte_Eaves_-_Lisa_Fricke.jpg"
+      "picture": "https://static.miraheze.org/criticalrolewiki/3/3c/Charlotte_Eaves_-_Lisa_Fricke.jpg",
+      "scars": "2",
+      "aboutMe": "Test"
     },
     {
       "id": "2",
       "name": "Sean Finnerty",
       "role": "Muscle",
       "specialty": "Soldier",
-      "picture": "https://static.miraheze.org/criticalrolewiki/8/8c/Sean_Finnerty_-_Candela.jpg"
+      "picture": "https://static.miraheze.org/criticalrolewiki/8/8c/Sean_Finnerty_-_Candela.jpg",
+      "scars": "1"
     },
     {
       "id": "3",
       "name": "Elsie Roberts",
       "role": "Scholar",
       "specialty": "Doctor",
-      "picture": "https://static.miraheze.org/criticalrolewiki/c/c8/Elsie_Roberts_-_Kent_Davis.jpg"
+      "picture": "https://static.miraheze.org/criticalrolewiki/c/c8/Elsie_Roberts_-_Kent_Davis.jpg",
+      "scars": "3"
     },
     {
       "id": "4",
       "name": "Auggie James",
       "role": "Slink",
       "specialty": "Criminal",
-      "picture": "https://static.miraheze.org/criticalrolewiki/3/33/Auggie_James_-_Lisa_Fricke.jpg"
+      "picture": "https://static.miraheze.org/criticalrolewiki/3/33/Auggie_James_-_Lisa_Fricke.jpg",
+      "scars": "1"
     },
     {
       "id": "5",
       "name": "Marion Collodi",
       "role": "Weird",
       "specialty": "Medium",
-      "picture": "https://static.miraheze.org/criticalrolewiki/thumb/5/53/Marion_Collodi_-_Candela.jpg/800px-Marion_Collodi_-_Candela.jpg"
+      "picture": "https://static.miraheze.org/criticalrolewiki/thumb/5/53/Marion_Collodi_-_Candela.jpg/800px-Marion_Collodi_-_Candela.jpg",
+      "scars": "2"
     }
   ]
 }

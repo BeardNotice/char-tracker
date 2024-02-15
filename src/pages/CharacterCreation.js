@@ -95,6 +95,20 @@ function CharacterCreation() {
                             ))}
                         </select>
                     </label></p>
+                    <p><label>
+                        Scars:
+                        <select
+                            name="scars"
+                            value={formData.scars}
+                            onChange={handleChange}
+                            required
+                        >
+                            <option value={0}>0</option>
+                            <option value={1}>1</option>
+                            <option value={2}>2</option>
+                            <option value={3}>3</option>
+                        </select>
+                    </label></p>
                     <div style={{ border: "2px dashed #aaa", padding: "20px", textAlign: "center" }}>
                         <p>Drag & Drop photo here</p>
                     </div>

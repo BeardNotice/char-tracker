@@ -28,14 +28,12 @@ h2 {
   font-family: 'Abril Fatface', cursive;
   color:blanchedalmond;
   font-weight: bold;
-  text-shadow:.5px 2px 0 rgb(1, 8, 6);
 }
 p{
   text-align: center;
   font-family: 'Abril Fatface', cursive;
   color:blanchedalmond;
   font-weight: bold;
-  text-shadow:.5px 2px 0 rgb(1, 8, 6);
 }
 #root {
   display: flex;
