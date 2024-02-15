@@ -1,30 +1,30 @@
 nav {
-    background-color: #1a1a1a; /* Dark gray background color */
+    background-color: #1a1a1a;
     padding: 20px;
-    border-bottom: 1px solid #333; /* Dark border */
+    border-bottom: 1px solid #333;
   }
   
   .nav-link {
-    color: #fff; /* White text color */
+    color: #fff;
     text-decoration: none;
     margin-right: 20px;
-    font-family: 'Playfair Display', serif; /* Vintage-inspired font */
+    font-family: 'Playfair Display', serif;
     font-size: 20px;
-    letter-spacing: 1px; /* Add some letter spacing for a vintage feel */
-    transition: color 0.3s ease; /* Smooth transition for color change */
+    letter-spacing: 1px;
+    transition: color 0.3s ease;
   }
   
   .nav-link:hover {
-    color: #ff9900; /* Accent color on hover */
+    color: #ff9900;
   }
   
-  /* Optional: Add a subtle texture to the navbar background */
+
   nav {
     background-image: url(https://cannibalhalflinggaming.files.wordpress.com/2023/05/candela_obscura.webp?w=1024&h=567&crop=1); /* Replace 'path/to/texture.jpg' with the path to your texture image */
   }
   
-  /* Optional: Adjust the navbar height */
+
   nav {
-    height: 20px; /* Adjust the height as needed */
-    line-height: 20px; /* Center the text vertically within the navbar */
+    height: 20px;
+    line-height: 20px;
   }

@@ -12,7 +12,7 @@
     border-radius: 15px;  
     margin: 10px;
     text-align: left;
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3); /* Eerie shadow */
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
     background-image: url('https://img.freepik.com/free-photo/wooden-floor-background_53876-88628.jpg')
   }
   
@@ -26,8 +26,8 @@
   
   .card-title {
     margin-top: 0;
-    font-family: 'Abril Fatface', cursive; /* Elegant title font */
-    color: rgba(20, 2, 2, 0.3); /* Light text color */
+    font-family: 'Abril Fatface', cursive;
+    color: rgba(20, 2, 2, 0.3);
   }
   
   .card-img {
@@ -36,17 +36,17 @@
     height: auto;
     display: block;
     margin: 0 auto 20px;
-    filter: grayscale(100%) sepia(100%) hue-rotate(180deg); /* Desaturate and add sepia tone */
+    filter: grayscale(100%) sepia(100%) hue-rotate(180deg);
   }
   
   .card p {
     margin: 2px 0 10px;
     line-height: 1.5;
-    color: #320909; /* Lighter text color */
+    color: #320909;
   }
   
   .card p strong {
-    color: #3e0808; /* Light text color */
+    color: #3e0808;
     text-align: left;
-    font-style: italic; /* Add italic style */
+    font-style: italic;
   }
