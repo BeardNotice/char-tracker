@@ -24,7 +24,7 @@ To run the application locally, follow these steps:
 1. Clone this repository to your local machine.
 2. Navigate to the project directory in your terminal.
 3. Install dependencies using `npm install`.
-4. Start the JSON Server by running `npm run server`.
+4. Start the JSON Server by running `json-server --watch db.json`.
 5. Start the React application by running `npm start`.
 6. Open your browser and navigate to `http://localhost:3000` to view the application.
 
