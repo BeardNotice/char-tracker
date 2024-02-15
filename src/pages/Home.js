@@ -12,7 +12,7 @@ function Home() {
     return (
         <>
             <main>
-                <h1>Candela Obscura Character Tracker</h1>
+                <h1><strong>Candela Obscura Character Tracker</strong></h1>
                 <Outlet context={characters} />
                 <div>
                     {characterList}

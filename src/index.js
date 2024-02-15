@@ -27,30 +27,3 @@ const router = createBrowserRouter(routes);
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(<RouterProvider router={router} />);
-
-//import {BrowserRouter, Routes} from "react-router-dom"
-//ReactDOM.render(
-//  <BrowserRouter>
-//    <Routes>
-//      {/* Map over the routes array to render each route and its child routes */}
-//      {routes.map((route, index) => (
-//        <Route
-//          key={index}
-//          path={route.path} // Set the path for the route
-//          element={route.element} // Set the element to render when the route matches
-//          errorElement={route.errorElement} // Set the element to render if an error occurs while rendering the route
-//        >
-//          {/* Check if the route has children (nested routes) */}
-//          {route.children && route.children.map((childRoute, childIndex) => (
-//            <Route
-//              key={childIndex}
-//              path={childRoute.path} // Set the path for the child route
-//              element={childRoute.element} // Set the element to render when the child route matches
-//            />
-//          ))}
-//        </Route>
-//      ))}
-//    </Routes>
-//  </BrowserRouter>,
-//  document.getElementById('root') // Render the application inside the root element in the HTML document
-//);
