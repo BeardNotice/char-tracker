@@ -16,7 +16,7 @@ The Candela Obscura Character Tracker is a web application designed to help user
 - **JSON Server**: The application uses JSON Server as a mock backend to simulate data storage and retrieval.
 
 ## Credits
-- **Candela Obscura**: Candela Obscura is a roleplaying game created by Taliesin Jaffe and Chris Lockey.
+- **Candela Obscura**: Candela Obscura is a roleplaying game created by Taliesin Jaffe and Chris Lockey, and designed and written by Spenser Starke and Rowan Hall.
 - **Darrington Press**: Darrington Press is the publishing company behind Candela Obscura, founded by the cast of Critical Role.
 
 ## Getting Started
