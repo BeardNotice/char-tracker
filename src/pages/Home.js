@@ -1,7 +1,7 @@
 import CharacterCard from '../components/CharacterCard';
 import { Outlet, useOutletContext } from 'react-router-dom'
 function Home() {
-    const characters = useOutletContext()
+    const {characters}  = useOutletContext()
 
 
     const characterList = characters.map(character => {
@@ -13,7 +13,6 @@ function Home() {
         <>
             <main>
                 <h1><strong>Candela Obscura Character Tracker</strong></h1>
-                <Outlet context={characters} />
                 <div>
                     {characterList}
                 </div>

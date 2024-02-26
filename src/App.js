@@ -5,14 +5,16 @@ import { Outlet } from "react-router-dom";
 function App() {
     const [characters, setCharacters] = useState([])
 
-    useEffect(() => {
+    const fetchCharacters = () => {
         fetch("http://localhost:3000/characters")
             .then(res => res.json())
             .then(data => setCharacters(data))
             .catch(err => console.error(err))
-    }, [])
+    }
 
-
+useEffect(() => {
+    fetchCharacters()
+}, [])
 
 console.log(characters)
     return (
@@ -20,7 +22,7 @@ console.log(characters)
             <header>
                 <NavBar />
             </header>
-            <Outlet context={characters} />
+            <Outlet context={{characters, fetchCharacters}} />
         </>
     );
 };
