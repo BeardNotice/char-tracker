@@ -4,7 +4,7 @@ import { useNavigate, Outlet, useOutletContext } from "react-router-dom"
 
 function CharacterCreation() {
     //const {setCharacters} = useContext();
-    const setCharacters = useOutletContext();
+    const {characters, setCharacters} = useOutletContext();
     const navigate = useNavigate();
 
     const [formData, setFormData] = useState({
@@ -48,7 +48,7 @@ function CharacterCreation() {
         })
         .then(data => {
             console.log('Character created', data);
-            setCharacters(data);
+            setCharacters([...characters, data]);
             navigate("/");
             //update state from here
         })
