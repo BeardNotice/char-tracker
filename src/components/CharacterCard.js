@@ -1,9 +1,9 @@
 import "./Card.css"
-import {useOutletContext} from 'react-router-dom'
+//import {useOutletContext} from 'react-router-dom'
 
 
 const CharacterCard = ({character}) => {
-    const {fetchCharacters} = useOutletContext()
+ //   const {fetchCharacters} = useOutletContext()
 
     const generateScarsDisplay = (numScars) => {
         const scarSymbols = ["◇", "◈"];
@@ -14,11 +14,11 @@ const CharacterCard = ({character}) => {
         return scarsDisplay;
     };
 
-    const handleDelete = () => {
+/*     const handleDelete = () => {
         fetch(`http://localhost:3000/characters/${character.id}`, {
             method: 'DELETE',
     }).then(fetchCharacters)
-    }
+    } */
 
     console.log(character)
     return (
@@ -30,7 +30,7 @@ const CharacterCard = ({character}) => {
                     <p className='role-specialty' ><strong>Role:</strong> <em>{character.role}</em></p>
                     <p className='role-specialty' ><strong>Specialty:</strong> <em>{character.specialty}</em></p>
                     <p className='role-specialty' ><strong>Scars:</strong> <em>{generateScarsDisplay(character.scars)}</em></p>
-                    <button onClick={handleDelete}>Delete</button>
+                    {/*<button onClick={handleDelete}>Delete</button>*/}
                 </div>
             </div>
         </>

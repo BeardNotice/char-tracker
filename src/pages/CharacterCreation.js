@@ -1,7 +1,11 @@
 import './CharacterCreation.css'
 import { useState } from "react";
+import { useNavigate, Outlet, useOutletContext } from "react-router-dom"
 
 function CharacterCreation() {
+    const setCharacters = useOutletContext();
+    const navigate = useNavigate();
+
     const [formData, setFormData] = useState({
         name: "",
         role: "",
@@ -43,7 +47,9 @@ function CharacterCreation() {
         })
         .then(data => {
             console.log('Character created', data);
-            window.location.href ='/'
+            setCharacters(data);
+            navigate("/");
+            //update state from here
         })
         .catch(error =>{
             console.error('Error:', error)

@@ -6,8 +6,7 @@
       "role": "Face",
       "specialty": "Magician",
       "picture": "https://static.miraheze.org/criticalrolewiki/3/3c/Charlotte_Eaves_-_Lisa_Fricke.jpg",
-      "scars": "2",
-      "aboutMe": "Test"
+      "scars": "2"
     },
     {
       "id": "2",
@@ -19,10 +18,10 @@
     },
     {
       "id": "3",
-      "name": "Elsie Roberts",
-      "role": "Scholar",
-      "specialty": "Doctor",
-      "picture": "https://static.miraheze.org/criticalrolewiki/c/c8/Elsie_Roberts_-_Kent_Davis.jpg",
+      "name": "Malcom Trills",
+      "role": "Muscle",
+      "specialty": "Soldier",
+      "picture": "https://static.miraheze.org/criticalrolewiki/thumb/4/4b/Malcolm_Trills_-_Fricke.jpg/800px-Malcolm_Trills_-_Fricke.jpg",
       "scars": "3"
     },
     {
